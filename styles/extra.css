@@ -6,7 +6,7 @@
 }
 body {
   background-color: #fff;
-  /* font-family: "Righteous", cursive; */
+
   font-family: "Poppins", sans-serif;
 }
 
@@ -16,4 +16,8 @@ body {
 
 .text-tiny {
   font-size: 10px;
+}
+
+.RIGHTO {
+  font-family: "Righteous", cursive;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Search = () => {
+const Search = ({ on_change }) => {
   return (
     <>
       <form class="group sticky top-0 z-50 bg-white px-4 sm:px-6 lg:px-16 shadow">
@@ -24,6 +24,7 @@ const Search = () => {
           </label>
           <input
             type="text"
+            onChange={on_change}
             id="search-input"
             placeholder="Search between the collection of colors"
             class="flex-auto py-6 text-base leading-6 text-gray-500 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400"

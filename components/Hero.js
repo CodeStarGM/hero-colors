@@ -15,22 +15,22 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="flex w-screen h-64 bg-gradient-to-r from-green-500 to-[#4ec346]">
-      <div className="w-3/5 bg-red px-14 py-16">
-        <h1 className="text-3xl text-white font-medium">
+    <div className="flex lg:flex-row flex-col  w-screen lg:h-64 h-96 bg-gradient-to-r from-green-500 to-[#4ec346]">
+      <div className="lg:w-3/5 w-screen bg-red px-14 py-16">
+        <h1 className="lg:text-3xl text-2xl text-white font-medium">
           HeroColors is a free collection of {colorNum} Colors
         </h1>
-        <h2 className="text-3xl text-green-700">
+        <h2 className="lg:text-3xl text-2xl text-green-700">
           just click and you're ready to go
         </h2>
-        <p className="text-sm py-4 text-green-800">
+        <p className="lg:text-sm text-xs py-4 text-green-800">
           HeroColors is free & Open Source <br />
           Colors Library that you can use in any part of your website,
           <br /> Just One Click & get CSS3 crossbrowser code and use it in a
           moment!
         </p>
       </div>
-      <div className="space-x-8 w-2/5 flex justify-center items-center">
+      <div className=" space-x-8 lg:w-2/5 w-screen flex justify-center items-center">
         <div className="drop-shadow-2xl flex justify-center items-center w-40  cursor-pointer hover:mb-2 bg-white shadow-xl py-3 px-3 rounded-lg transition-all duration-200">
           <a href="#" className="flex items-center">
             <svg

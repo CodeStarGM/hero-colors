@@ -1,6 +1,8 @@
 import React from "react";
 import GradientCard from "./GradientCard";
 import { Data_Gradient_Color } from "../data/Data";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const GradientColors = ({ search_color }) => {
   return (
     <div className="py-14 flex justify-center items-center peer-focus:opacity-100 peer:transition duration-200">
@@ -17,12 +19,22 @@ const GradientColors = ({ search_color }) => {
           <GradientCard
             ONCLICK={() => {
               navigator.clipboard.writeText(item.colorCode);
+              toast.success("Wow so easy!", {
+                position: "bottom-right",
+                autoClose: 2400,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+              });
             }}
             g1={item.colorOne}
             g2={item.colorTwo}
           />
         ))}
       </div>
+      <ToastContainer />
     </div>
   );
 };

@@ -24,15 +24,19 @@ const Hero = () => {
           just click and you're ready to go
         </h2>
         <p className="lg:text-sm text-xs py-4 text-green-800">
-          HeroColors is free & Open Source <br />
+          HeroColors is free & open source <br />
           Colors Library that you can use in any part of your website,
           <br /> Just One Click & get CSS3 crossbrowser code and use it in a
           moment!
         </p>
       </div>
       <div className=" space-x-8 lg:w-2/5 w-screen flex justify-center items-center">
-        <div className="drop-shadow-2xl flex justify-center items-center w-40  cursor-pointer hover:mb-2 bg-white shadow-xl py-3 px-3 rounded-lg transition-all duration-200">
-          <a href="#" className="flex items-center">
+        <a
+          href="https://github.com/CodeStarGM/hero-colors"
+          target="_blank"
+          className="flex items-center"
+        >
+          <div className="drop-shadow-2xl flex justify-center items-center w-40  cursor-pointer hover:mb-2 bg-white shadow-xl py-3 px-3 rounded-lg transition-all duration-200">
             <svg
               width="24"
               height="24"
@@ -46,27 +50,23 @@ const Hero = () => {
               ></path>
             </svg>
             <span>Contribute</span>
-          </a>
-        </div>
-        <div className="drop-shadow-2xl flex justify-center items-center w-40 cursor-pointer hover:mb-2  bg-[#4ec346] shadow-xl py-3 px-3 rounded-lg transition-all duration-200">
-          <a href="#" className="flex items-center">
+          </div>
+        </a>
+        <a href="mailto:codestargm@gmail.com" className="flex items-center">
+          <div className="drop-shadow-2xl flex justify-center items-center w-40 cursor-pointer hover:mb-2  bg-[#4ec346] shadow-xl py-3 px-3 rounded-lg transition-all duration-200">
             <svg
-              width="24"
-              height="24"
               xmlns="http://www.w3.org/2000/svg"
-              class="text-red-400 mr-2  transform"
+              class="text-white mr-2"
+              height="24"
+              width="24"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
-              <path
-                fill-rule="evenodd"
-                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                clip-rule="evenodd"
-              />
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
-            <span className="text-white font-medium">Support</span>
-          </a>
-        </div>
+            <span className="text-white font-medium">Contact</span>
+          </div>
+        </a>
       </div>
     </div>
   );

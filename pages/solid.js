@@ -7,7 +7,7 @@ import SolidColors from "../components/SolidColors";
 import Search from "../components/Search";
 import Tab from "../components/Tab";
 import GradientColors from "../components/GradientColors";
-const solid = () => {
+const Solid = () => {
   const [search, setSearch] = useState("");
   return (
     <>
@@ -69,4 +69,4 @@ const solid = () => {
   );
 };
 
-export default solid;
+export default Solid;

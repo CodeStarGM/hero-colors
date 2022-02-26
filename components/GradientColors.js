@@ -17,6 +17,7 @@ const GradientColors = ({ search_color }) => {
           }
         }).map((item) => (
           <GradientCard
+            key={item.colorCode}
             ONCLICK={() => {
               navigator.clipboard.writeText(item.colorCode);
               toast.success("Wow so easy!", {

@@ -61,7 +61,7 @@ export default function Home() {
       <div className="py-14 flex justify-center items-center peer-focus:opacity-100 peer:transition duration-200">
         <div class=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           {Data_Solid_Color.slice(0, 8).map((item) => (
-            <SolidCard solidColor={item.color} />
+            <SolidCard key={item.colorCode} solidColor={item.color} />
           ))}
         </div>
       </div>
@@ -75,7 +75,11 @@ export default function Home() {
       <div className="py-14 flex justify-center items-center peer-focus:opacity-100 peer:transition duration-200">
         <div class=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           {Data_Gradient_Color.slice(0, 8).map((item) => (
-            <GradientCard g1={item.colorOne} g2={item.colorTwo} />
+            <GradientCard
+              key={item.colorCode}
+              g1={item.colorOne}
+              g2={item.colorTwo}
+            />
           ))}
         </div>
       </div>

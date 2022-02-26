@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 import Search from "../components/Search";
 import Tab from "../components/Tab";
 import GradientColors from "../components/GradientColors";
-const gradient = () => {
+const Gradient = () => {
   const [search, setSearch] = useState("");
   return (
     <>
@@ -67,4 +67,4 @@ const gradient = () => {
   );
 };
 
-export default gradient;
+export default Gradient;

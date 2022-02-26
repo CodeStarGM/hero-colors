@@ -18,6 +18,7 @@ const SolidColors = ({ search_color }) => {
           }
         }).map((item) => (
           <SolidCard
+            key={item.colorCode}
             ONCLICK={() => {
               navigator.clipboard.writeText(item.colorCode);
               toast.success("Wow so easy!", {

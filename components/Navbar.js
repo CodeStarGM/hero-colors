@@ -10,7 +10,7 @@ const Navbar = () => {
       <Link href="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-14 w-14 text-green-700 cursor-pointer"
+          className="h-14 w-14 text-green-700 cursor-pointer"
           viewBox="0 0 20 20"
           fill="currentColor"
         >

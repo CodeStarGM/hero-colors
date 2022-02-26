@@ -43,7 +43,7 @@ export default function Home() {
 
       <div className=" w-screen h-10 ">
         <ins
-          class="adsbygoogle"
+          className="adsbygoogle"
           style={{ display: "block" }}
           data-ad-client="ca-pub-9395568136340476"
           data-ad-slot="5323880222"
@@ -73,7 +73,7 @@ export default function Home() {
         </Link>
       </div>
       <div className="py-14 flex justify-center items-center peer-focus:opacity-100 peer:transition duration-200">
-        <div class=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+        <div className=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           {Data_Gradient_Color.slice(0, 8).map((item) => (
             <GradientCard
               key={item.colorCode}
@@ -92,7 +92,7 @@ export default function Home() {
       </div>
       <div className=" w-screen">
         <ins
-          class="adsbygoogle"
+          className="adsbygoogle"
           style={{ display: "block" }}
           data-ad-client="ca-pub-9395568136340476"
           data-ad-slot="5323880222"

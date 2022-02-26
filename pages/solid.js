@@ -54,7 +54,7 @@ const Solid = () => {
       />
       <div className=" w-screen h-10 ">
         <ins
-          class="adsbygoogle"
+          className="adsbygoogle"
           style={{ display: "block" }}
           data-ad-client="ca-pub-9395568136340476"
           data-ad-slot="5323880222"

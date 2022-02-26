@@ -34,7 +34,7 @@ const Hero = () => {
         <a
           href="https://github.com/CodeStarGM/hero-colors"
           target="_blank"
-          ref="noreferrer"
+          rel="noreferrer"
           className="flex items-center"
         >
           <div className="drop-shadow-2xl flex justify-center items-center w-40  cursor-pointer hover:mb-2 bg-white shadow-xl py-3 px-3 rounded-lg transition-all duration-200">

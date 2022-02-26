@@ -7,7 +7,7 @@ const Footer = () => {
         <p>Created with</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5 text-red-600"
+          className="h-5 w-5 text-red-600"
           viewBox="0 0 20 20"
           fill="currentColor"
         >
@@ -25,6 +25,7 @@ const Footer = () => {
         <a
           href="https://heroicons.com/"
           target="_blank"
+          rel="noreferrer"
           className="text-purple-700"
         >
           HeroIcons

@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 const GradientColors = ({ search_color }) => {
   return (
     <div className="py-14 flex justify-center items-center peer-focus:opacity-100 peer:transition duration-200">
-      <div class=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+      <div className=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
         {Data_Gradient_Color.filter((val) => {
           if (search_color == "") {
             return val;

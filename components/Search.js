@@ -6,7 +6,7 @@ const Search = ({ on_change }) => {
       <form className="group sticky top-0 z-50 bg-white px-4 sm:px-6 lg:px-16 shadow">
         <div className="max-w-10xl mx-auto flex">
           <label
-            for="search-input"
+            htmlFor="search-input"
             className="flex-none pr-3 flex items-center"
           >
             <svg
@@ -18,9 +18,9 @@ const Search = ({ on_change }) => {
               className="text-gray-400 group-focus-within:text-gray-500 transition-colors duration-150"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
               ></path>
             </svg>

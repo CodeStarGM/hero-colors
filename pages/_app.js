@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9395568136340476"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
         <link rel="shortcut icon" href="/herocolors.svg" />
       </Head>

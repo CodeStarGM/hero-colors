@@ -9,7 +9,7 @@ const Tab = ({
   return (
     <div className="py-14 flex flex-col justify-center items-center w-screen">
       <h1 className="text-xl font-medium">
-        You're Browsing {tabColorName} Colors
+        You&apos;re Browsing {tabColorName} Colors
       </h1>
       <Link href={tabButtonLink}>
         <a

@@ -21,7 +21,7 @@ const Hero = () => {
           HeroColors is a free collection of {colorNum} Colors
         </h1>
         <h2 className="lg:text-3xl text-2xl text-green-700">
-          just click and you're ready to go
+          just click and you&apos;re ready to go
         </h2>
         <p className="lg:text-sm text-xs py-4 text-green-800">
           HeroColors is free & open source <br />
@@ -42,7 +42,7 @@ const Hero = () => {
               width="24"
               height="24"
               fill="currentColor"
-              class="text-green-600 mr-2 transform"
+              className="text-green-600 mr-2 transform"
             >
               <path
                 fillRule="evenodd"
@@ -57,7 +57,7 @@ const Hero = () => {
           <div className="drop-shadow-2xl flex justify-center items-center w-40 cursor-pointer hover:mb-2  bg-[#4ec346] shadow-xl py-3 px-3 rounded-lg transition-all duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="text-white mr-2"
+              className="text-white mr-2"
               height="24"
               width="24"
               viewBox="0 0 20 20"

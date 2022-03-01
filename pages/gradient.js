@@ -50,17 +50,7 @@ const Gradient = () => {
         tabButtonStyle="bg-yellow-400"
         tabButtonLink="/solid"
       />
-      <div className=" w-screen h-10 ">
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-9395568136340476"
-          data-ad-slot="5323880222"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
+     
       <GradientColors search_color={search} />
       <Footer />
     </>

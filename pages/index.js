@@ -41,17 +41,7 @@ export default function Home() {
       <Navbar />
       <Hero />
 
-      <div className=" w-screen h-10 ">
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-9395568136340476"
-          data-ad-slot="5323880222"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
+      
 
       <div className="py-14 flex flex-col justify-center items-center w-screen">
         <h1 className="text-5xl font-bold text-green-500 drop-shadow-2xl">
@@ -90,17 +80,7 @@ export default function Home() {
           </button>
         </Link>
       </div>
-      <div className=" w-screen">
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-9395568136340476"
-          data-ad-slot="5323880222"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
+     
 
       <Footer />
     </>

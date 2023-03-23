@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <div className="px-14 bg-gradient-to-r from-green-500 to-[#4ec346] flex space-x-2 items-center w-screen h-20 drop-shadow-md">
+    <div className="px-14 bg-gradient-to-r from-purple-700 to-[#a65fec]  flex space-x-2 items-center w-screen h-20 drop-shadow-md">
       {/* <img
         className="w-14 h-14"
         src="https://avatars.githubusercontent.com/u/68224623?s=400&u=b93abdf61169f4616478c05eacac0bc3ac0a54ad&v=4"
@@ -10,7 +10,7 @@ const Navbar = () => {
       <Link href="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-14 w-14 text-green-700 cursor-pointer"
+          className="h-14 w-14 text-purple-400 cursor-pointer"
           viewBox="0 0 20 20"
           fill="currentColor"
         >
@@ -22,8 +22,8 @@ const Navbar = () => {
         </svg>
       </Link>
       <Link href="/">
-        <h1 className="text-white text-4xl font-extrabold cursor-pointer">
-          herocolors
+        <h1 className="RIGHTO text-white text-3xl font-medium cursor-pointer">
+          heroicons
         </h1>
       </Link>
     </div>

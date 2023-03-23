@@ -1,15 +1,22 @@
 import React from "react";
 
-const GradientCard = ({ g1, g2, ONCLICK }) => {
+const GradientCard = ({ name, g1, g2, ONCLICK }) => {
   return (
     <div
-      style={{
-        backgroundImage: `linear-gradient(${g1},${g2})`,
-      }}
       onClick={ONCLICK}
-      className=" shadow-2xl hover:drop-shadow-2xl cursor-pointer text-white font-bold flex justify-start px-1 items-end w-40 h-20  rounded-xl md:w-64 md:h-32 md:text-2xl lg:w-64 lg:h-32 xl:w-64 xl:h-32"
+      className="bg-white shadow-2xl hover:drop-shadow-2xl px-4 py-4 rounded-2xl w-44"
     >
-      <h1 className="text-tiny RIGHTO">Click To Copy Code</h1>
+      <div
+        style={{
+          backgroundImage: `linear-gradient(${g1},${g2})`,
+        }}
+        className=" cursor-pointer text-white font-bold flex justify-start px-1 items-end w-[100%] h-24  rounded-xl"
+      ></div>
+
+      <div className="mt-3 flex items-center justify-between">
+        <h2 className="RIGHTO font-extrabold text-sm">{name}</h2>
+        {/* <h2 className="RIGHTO font-extrabold text-sm">{g2}</h2> */}
+      </div>
     </div>
   );
 };

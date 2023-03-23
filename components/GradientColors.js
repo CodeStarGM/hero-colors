@@ -2,11 +2,11 @@ import React from "react";
 import GradientCard from "./GradientCard";
 import { Data_Gradient_Color } from "../data/Data";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
 const GradientColors = ({ search_color }) => {
   return (
     <div className="py-14 flex justify-center items-center peer-focus:opacity-100 peer:transition duration-200">
-      <div className=" grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-10">
         {Data_Gradient_Color.filter((val) => {
           if (search_color == "") {
             return val;
@@ -18,6 +18,7 @@ const GradientColors = ({ search_color }) => {
         }).map((item) => (
           <GradientCard
             key={item.colorCode}
+            name={item.name}
             ONCLICK={() => {
               navigator.clipboard.writeText(item.colorCode);
               toast.success("Wow so easy!", {
